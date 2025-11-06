@@ -5,6 +5,9 @@
 #define CAM_SLEEP_WAKEUP_H
 
 #include <linux/types.h>
+#include <linux/i2c.h>
+#include <uapi/linux/rk-preisp.h>
+#include <linux/device.h>
 
 typedef int (*sensor_write_array)(struct i2c_client *, void *);
 
